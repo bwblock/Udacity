@@ -1,0 +1,13 @@
+Last login: Wed Sep 21 23:31:36 on ttys001
+Brians-Macbook-Pro-2:~ bwblock$ /var/folders/4p/2wymvnnn0254gmckz44_0c3h0000gp/T/baseball-496215122.173.py.command ; exit;
+
+RH average = 0.163788652864
+LH average = 0.185389054514
+
+t-statistic = 9.9357022262420944, p-value = 3.8102742258887383e-23
+
+result = False
+
+logout
+
+[Process completed]

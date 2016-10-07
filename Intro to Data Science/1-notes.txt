@@ -1,0 +1,16 @@
+
+
+dataframe df
+   one   two
+a   1   1
+b   2   2 
+c   3   3
+d   nan	4
+
+>> df.apply(numpy.mean)
+
+one   2.0
+two   2.5
+
+
+
