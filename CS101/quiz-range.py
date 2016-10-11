@@ -1,3 +1,4 @@
+#! /usr/bin/env python 
 # The range of a set of values is the maximum value minus the minimum
 # value. Define a procedure, set_range, which returns the range of three input
 # values.
@@ -6,8 +7,10 @@
 # might help you with this question. You might also like to find a way to
 # code it using some built-in functions.
 
-def set_range():
-    # Your code here
+def set_range(a,b,c):
+
+  return (max(a,b,c) - min(a,b,c))
+   
 
 
 print set_range(10, 4, 7)

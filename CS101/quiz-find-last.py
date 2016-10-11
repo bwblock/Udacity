@@ -9,17 +9,19 @@
 
 # Make sure your procedure has a return statement.
 
+
 def find_last(search,target):
 
-
+  result = -1
   end_pos = 0
   
   while True:
-    result = search.find(target, end_pos)
+    start_pos = search.find(target, end_pos)
     
-    if result == -1:
+    if start_pos == -1:
       break
-      
+  
+    result = start_pos  
     end_pos += 1
     
   return result

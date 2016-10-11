@@ -19,5 +19,5 @@ def abbaize(a,b):
 print abbaize('a','b')
 #>>> 'abba'
 
-#print abbaize('dog','cat')
+print abbaize('dog','cat')
 #>>> 'dogcatcatdog'

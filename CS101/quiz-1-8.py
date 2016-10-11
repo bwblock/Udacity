@@ -16,9 +16,9 @@
 # This exercise can be solved with only unit 1 knowledge
 # (no loops or conditions)
 
-word = "madam"
-# test case 2
-# word = "madman" # uncomment this to test
+# word = "madam"
+#test case 2
+word = "madman" # uncomment this to test
 
 ###
 # YOUR CODE HERE. DO NOT DELETE THIS LINE OR ADD A word DEFINITION BELOW IT.
