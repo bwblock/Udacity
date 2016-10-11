@@ -10,6 +10,9 @@ def NBAccuracy(features_train, labels_train, features_test, labels_test):
     ### fit the classifier on the training features and labels
     clf.fit(features_train, labels_train)
 
+	###   use test data set to test the fit of the model.
+
+
     ### use the trained classifier to predict labels for the test features
     pred = clf.predict(features_test)
 
