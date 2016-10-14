@@ -15,9 +15,16 @@ def nextDay(year, month, day):
         year += 1
     return year, month, day
     
-def date_val(year, month, day):
-    value = year * 365 + month * 30 + day
-    return value
+def date_is_before(year1, month1, day1, year2, month2, day2):
+    if year1 < year2:
+      return True
+    if year1 == year2:
+      if month1 < month2:
+        return True
+      if month1 == month2:
+        return day1 < day2
+    
+    return False
         
 def daysBetweenDates(year1, month1, day1, year2, month2, day2):
     """Returns the number of days between year1/month1/day1
@@ -26,7 +33,7 @@ def daysBetweenDates(year1, month1, day1, year2, month2, day2):
        the second."""
     
     days = 0
-    while date_val(year1, month1, day1) < date_val(year2, month2, day2):
+    while date_is_before(year1, month1, day1, year2, month2, day2):
       year1, month1, day1 = nextDay(year1, month1, day1)
       days += 1
       
