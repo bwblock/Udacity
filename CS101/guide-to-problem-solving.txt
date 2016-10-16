@@ -1,0 +1,9 @@
+Guide to problem solving:
+
+
+0.  Dont Panic!
+1.  What are the inputs?
+2.  What are the outputs?
+3.  Work through some examples by hand
+4.  Simple mechanical solution
+5.  Develop incrementally and test as you go.
