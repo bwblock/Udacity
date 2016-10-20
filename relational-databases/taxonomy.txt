@@ -1,0 +1,27 @@
++------------+---------------+-----------------+-------------------+----------------+
+|       name |       species |           genus |            family |        t_order |
++============+===============+=================+===================+================+
+|     alpaca |         pacos |         Vicugna |         Camelidae |   Artiodactyla |
+| brown bear |        arctos |           Ursus |           Ursidae |      Carnivora |
+|      camel |   dromedarius |         Camelus |         Camelidae |   Artiodactyla |
+|      dingo |         lupus |           Canis |           Canidae |      Carnivora |
+|    echidna |     aculeatus |    Tachyglossus |    Tachyglossidae |    Monotremata |
+|     ferret |      putorius |         Mustela |        Mustelidae |      Carnivora |
+|    gorilla |       gorilla |         Gorilla |         Hominidae |       Primates |
+|      hyena |       crocuta |         Crocuta |         Hyaenidae |      Carnivora |
+|     iguana |        iguana |          Iguana |         Iguanidae |       Squamata |
+|     jackal |        aureus |           Canis |           Canidae |      Carnivora |
+|      llama |         glama |            Lama |         Camelidae |   Artiodactyla |
+|    opossum |    virginiana |       Didelphis |       Didelphidae |     Marsupiala |
+|      moose |         alces |           Alces |          Cervidae |   Artiodactyla |
+|   mongoose |       parvula |        Helogale |       Herpestidae |      Carnivora |
+|    narwhal |     monoceros |         Monodon |      Monodontidae |        Cetacea |
+|  orangutan |        borneo |           Pongo |         Hominidae |       Primates |
+|   platypus |      anatinus | Ornithorhynchus | Ornithorhynchidae |    Monotremata |
+|    quetzal |       mocinno |    Pharomachrus |        Trogonidae |  Trogoniformes |
+|   sea lion | californianus |        Zalophus |         Otariidae |      Carnivora |
+|    unicorn |     monoceros |           Equus |           Equidae | Perissodactyla |
+|    warthog |     africanus |    Phacochoerus |            Suidae |   Artiodactyla |
+|        yak |     grunniens |             Bos |           Bovidae |   Artiodactyla |
+|      zebra |        quagga |           Equus |           Equidae | Perissodactyla |
++------------+---------------+-----------------+-------------------+----------------+

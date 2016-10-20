@@ -1,0 +1,18 @@
+Quiz: Select Clauses
+Here are the new select clauses introduced in the previous video:
+
+... limit count
+Return just the first count rows of the result table.
+
+... limit count offset skip
+Return count rows starting after the first skip rows.
+
+... order by columns
+... order by columns desc
+
+Sort the rows using the columns (one or more, separated by commas) as the sort key. 
+Numerical columns will be sorted in numerical order; string columns in alphabetical order. With desc, the order is reversed (desc-ending order).
+
+... group by columns
+Change the behavior of aggregations such as max, count, and sum. 
+With group by, the aggregation will return one row for each distinct value in columns.

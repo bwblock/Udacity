@@ -1,0 +1,93 @@
++-------------+------------+------------+
+|        name |    species |  birthdate |
++=============+============+============+
+|      Andrea |     alpaca | 2001-01-16 |
+|       Bruno |     alpaca | 2004-09-23 |
+|     Charlie |     alpaca | 2004-09-23 |
+|       Della |     alpaca | 2006-01-09 |
+|        Emma |     alpaca | 2013-03-16 |
+|        Fred | brown bear | 1993-05-02 |
+|      George | brown bear | 1997-06-24 |
+|       Molly | brown bear | 1981-10-17 |
+|     Eliezer |      camel | 1971-03-08 |
+|    Giuseppe |      camel | 1979-12-25 |
+|        Taro |      camel | 1981-08-10 |
+|        Fido |      dingo | 1999-08-04 |
+|        Spot |      dingo | 2007-11-07 |
+|       Rover |      dingo | 2008-08-24 |
+|      Medusa |    echidna | 2003-01-31 |
+| Zarathustra |     ferret | 2006-09-18 |
+|    Zebediah |     ferret | 2006-10-11 |
+|   Zephaniah |     ferret | 2010-02-02 |
+|     Zenobia |     ferret | 2011-09-03 |
+|        Zara |     ferret | 2007-12-17 |
+|         Max |    gorilla | 2001-04-23 |
+|        Dave |    gorilla | 1988-09-29 |
+|       Becky |    gorilla | 1979-07-04 |
+|         Liz |    gorilla | 1998-06-12 |
+|      George |    gorilla | 2011-01-09 |
+|      George |    gorilla | 1998-05-18 |
+|     Wendell |    gorilla | 1982-09-24 |
+|       Bjorn |    gorilla | 2000-03-07 |
+|     Kristen |    gorilla | 1990-04-25 |
+|    Cherries |      hyena | 2007-06-08 |
+|        Biff |      hyena | 2011-06-09 |
+|  Tinkerbell |      hyena | 2009-11-10 |
+|      George |     iguana | 2013-10-18 |
+|      Cheech |     iguana | 2006-12-19 |
+|        Spot |     iguana | 2010-07-23 |
+|      Andrea |     iguana | 1999-09-09 |
+|       Devoe |     jackal | 2009-09-25 |
+|       Duran |     jackal | 2009-09-20 |
+|      Jethro |     jackal | 2012-04-29 |
+|     Tiffany |     jackal | 2007-12-26 |
+|         Sue |     jackal | 2003-12-21 |
+|      Alison |      llama | 1997-11-24 |
+|         Ben |      llama | 1984-01-05 |
+|    Cordelia |      llama | 1990-10-21 |
+|         Eli |      llama | 2002-02-22 |
+|        John |      llama | 1986-01-17 |
+|       Glenn |      llama | 1986-04-13 |
+|         Meg |      llama | 2011-09-08 |
+|         Mel |      llama | 2000-10-31 |
+|    Veronica |      llama | 1994-07-09 |
+|       Ricky |   mongoose | 2006-02-28 |
+|     Charlie |      moose | 2001-12-19 |
+|        Lucy |      moose | 1990-03-27 |
+|       Patty |      moose | 1996-04-19 |
+|         Max |      moose | 2002-06-15 |
+|     Francis |    narwhal | 1996-04-27 |
+|       Bacon |    narwhal | 1975-02-07 |
+|        Tori |    opossum | 2011-04-05 |
+|       Hazel |    opossum | 2009-10-24 |
+|        Neil |    opossum | 2009-08-11 |
+|        Raja |  orangutan | 1975-04-09 |
+|        Ratu |  orangutan | 1989-09-15 |
+|      Putera |  orangutan | 1993-06-29 |
+|       Gajah |  orangutan | 2011-05-26 |
+|       Singa |  orangutan | 2012-11-03 |
+|     Kambing |  orangutan | 1988-11-12 |
+|       Chris |   platypus | 2003-12-21 |
+|       Sandy |   platypus | 2008-09-09 |
+|         Pat |   platypus | 2000-04-13 |
+|         Mal |   sea lion | 1987-04-29 |
+|         Zoe |   sea lion | 1991-05-19 |
+|       River |   sea lion | 2004-07-08 |
+|       Inara |   sea lion | 2001-08-18 |
+|       Simon |   sea lion | 2000-12-16 |
+|      Morgan |    unicorn | 1875-01-24 |
+|      Laylah |    unicorn | 1752-05-20 |
+|    Bertrand |    warthog | 2007-11-12 |
+|     Hypatia |    warthog | 2007-05-20 |
+|        Emmy |    warthog | 2008-04-15 |
+|        Jack |        yak | 1996-09-20 |
+|         Mac |        yak | 1996-10-19 |
+|       Slack |        yak | 1997-09-05 |
+|         Pac |        yak | 2000-08-09 |
+|       Track |        yak | 2009-03-28 |
+|       Owuru |      zebra | 1989-03-15 |
+|     Ekwensu |      zebra | 1993-10-31 |
+|       Imaha |      zebra | 1995-06-08 |
+|      Adiaha |      zebra | 2005-05-12 |
+|     Obi Ike |      zebra | 2014-04-30 |
++-------------+------------+------------+

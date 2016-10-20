@@ -1,0 +1,14 @@
++----------------+----------------------+
+|        t_order |                 name |
++================+======================+
+|   Artiodactyla |  even-toed ungulates |
+|      Carnivora |           carnivores |
+|    Monotremata |           monotremes |
+|     Marsupiala |           marsupials |
+|       Primates |             primates |
+|       Squamata |   lizards and snakes |
+|        Cetacea |  whales and dolphins |
+|  Trogoniformes | trogons and quetzals |
+| Perissodactyla |   odd-toed ungulates |
+|     Chiroptera |                 bats |
++----------------+----------------------+
