@@ -3,6 +3,7 @@ import numpy as np
 import pandas
 import matplotlib.pyplot as plt
 
+
 def entries_histogram():
     '''
     Before we perform any analysis, it might be useful to take a
@@ -24,13 +25,21 @@ def entries_histogram():
     You can see the information contained within the turnstile weather data here:
     https://s3.amazonaws.com/content.udacity-data.com/courses/ud359/turnstile_data_master_with_weather.csv
     '''
+
     turnstile_weather = pandas.read_csv('turnstile_data_master_with_weather.csv')
-    plt.figure();
     
-    turnstile_weather['ENTRIESn_hourly'][turnstile_weather.rain == 1].hist()  # your code here to plot a historgram for hourly entries when it is raining
-    turnstile_weather['ENTRIESn_hourly'][turnstile_weather.rain == 0].hist()  # your code here to plot a historgram for hourly entries when it is not raining
+    fig = plt.figure()
     
-    print plt
+    turnstile_weather['ENTRIESn_hourly'][turnstile_weather.rain == 1].plot.hist()  # your code here to plot a historgram for hourly entries when it is raining
+    turnstile_weather['ENTRIESn_hourly'][turnstile_weather.rain == 0].plot.hist()  # your code here to plot a historgram for hourly entries when it is not raining
+    
+
+    
+    plt.show(block=True)
 
 
 
+
+
+if __name__ == '__main__':
+    entries_histogram()

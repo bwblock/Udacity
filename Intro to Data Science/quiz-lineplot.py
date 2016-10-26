@@ -1,3 +1,4 @@
+#! /usr/bin/env python 
 from pandas import *
 from ggplot import *
 
@@ -23,10 +24,9 @@ def lineplot():
     # https://github.com/yhat/ggplot/
     
     
-    data = pandas.read_csv('hr_year_csv')
+    data = pandas.read_csv('hr_year.csv')
     
-    print ggplot(data, aes('yearID', 'HR')) + geom_point(color = 'red') + geom_line(color='red') + \
-    ggtitle('HRs by year') + xlab('year') + ylab('HR')
+    print (ggplot(data, aes('yearID', 'HR')) + geom_point(color = 'red') + geom_line(color='red') + ggtitle('HRs by year') + xlab('year') + ylab('HR'))
     
     
     

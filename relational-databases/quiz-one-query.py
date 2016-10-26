@@ -10,3 +10,8 @@ def lightweights(cursor):
     av = cursor.fetchall()[0][0]  # first column of first (and only) row
     cursor.execute("select name, weight from players where weight < " + str(av))
     return cursor.fetchall()
+    
+    
+def lightweights(cursor):
+   cursor.execute("select name, weight from players, (select avg(weight) as av from players) as subq where weight < av;")
+   return cursor.fetchall()
