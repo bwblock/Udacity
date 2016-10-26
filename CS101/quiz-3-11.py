@@ -16,11 +16,11 @@ def product_list(list_of_numbers):
 
 
 
-#print product_list([9])
+print product_list([9])
 #>>> 9
 
-#print product_list([1,2,3,4])
+print product_list([1,2,3,4])
 #>>> 24
 
-#print product_list([])
+print product_list([])
 #>>> 1

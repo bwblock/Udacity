@@ -5,12 +5,16 @@
 
 speed_of_light = 300000. # km per second
 
-def speed_fraction():
+def speed_fraction(tr, dist):
+
+   speed = dist * 2.0 / tr * 1000
+   
+   return speed / speed_of_light
 
 
 
-print speed_fraction(50,5000)
+print (speed_fraction(50,5000))
 #>>> 0.666666666667
 
-print speed_fraction(50,10000)
+print (speed_fraction(50,10000))
 #>>> 1.33333333333  # Any thoughts about this answer, or these inputs?

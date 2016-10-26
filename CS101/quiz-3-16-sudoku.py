@@ -66,7 +66,7 @@ def check_sudoku(matrix):
   while index < n:
     col = []
     for row in matrix:
-      col.append(row[index])
+      col.append(row[index])fi
     for i in range(n):
       if not i+1 in col:
         return False
