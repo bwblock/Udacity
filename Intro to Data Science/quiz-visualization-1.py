@@ -33,8 +33,9 @@ def plot_weather_data():
     '''
     
     df = pandas.read_csv('turnstile_data_master_with_weather.csv')
-    plot = ggplot(df, aes(x = 'DATEn', y = 'ENTRIESn_hourly')) + geom_point()
-    print plot
+    p = ggplot(df, aes(x = 'ENTRIESn_hourly', fill = 'TIMEn')) + geom_histogram() 
+    print p
+
 
 
 if __name__ == '__main__':

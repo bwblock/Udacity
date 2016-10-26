@@ -1,6 +1,7 @@
 #! /usr/bin/env python 
 from pandas import *
 from ggplot import *
+import time
 
 import pandas
 
@@ -26,11 +27,11 @@ def lineplot():
     
     data = pandas.read_csv('hr_year.csv')
     
-    print (ggplot(data, aes('yearID', 'HR')) + geom_point(color = 'red') + geom_line(color='red') + ggtitle('HRs by year') + xlab('year') + ylab('HR'))
+    g = ggplot(data, aes('yearID', 'HR')) + geom_point(color = 'red') + geom_line(color='red') + ggtitle('HRs by year') + xlab('year') + ylab('HR')
+    fig = g.draw()
     
+#    time.sleep(20)
     
-    
-    return
 
 
 
