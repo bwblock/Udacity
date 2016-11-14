@@ -40,6 +40,7 @@ def reducer():
     So logging.info("my message") will work, but logging.info("my","message") will not.
     '''
 
+
     max_riders = 0
     old_key = None
     datetime = ''
@@ -47,26 +48,30 @@ def reducer():
     for line in sys.stdin:
         data = line.strip().split("\t")
 #        logging.info(data)
-        if len(data) != 3:
+        if len(data) < 3:
+          logging.info('loop')
           continue
+      
+      
         
         this_key = data[0]
-        count = float(data[3])
+        count = float(data[1])
         
         if old_key and old_key != this_key:
 
-          out = "{0}\t{1}\t{2}\t{3}".format(old_key, datetime, max_riders)
+          out = "{0}\t{1}\t{2}".format(old_key, datetime, max_riders)
           print out
+          logging.info(out)
           datetime = ''
           max_riders = 0
-#          logging.info(out)
+
 
         old_key = this_key
-        if count and count >= max_riders:
+        if count >= max_riders:
            max_riders = count
-           datetime = data[1] + data[2]
+           datetime = data[2] + ' ' + data[3]
 
         
     if old_key != None:
-      print "{0}\t{1}".format(old_key, riders/hours)
+      print"{0}\t{1}\t{2}".format(old_key, datetime, max_riders)
 reducer()

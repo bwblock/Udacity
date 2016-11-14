@@ -1,13 +1,14 @@
-#! /usr/bin/env python 
+#! /usr/bin/env python
+def unflatten(flat_array):
+    result = []
+    for e in range(len(flat_array)):
+      if flat_array[e] < 3:
+        result.append(flat_array[e])
+      elif flat_array[e] > 2:
+        if len(flat_array) >= e + flat_array[e]:
+          result.append(flat_array[e:e+flat_array[e]])
+        else:
+          result.append(flat_array[e:]
+    return result
 
-s = 'now is the time for all good men to come to the aid of the party'
-
-
-t = 'men'
-
-i = 10
-
-print s.find(t,i)
-
-print s[i:].find(t) + i
-
+unflatten([ 3, 5, 2, 1 ])

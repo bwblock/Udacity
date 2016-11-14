@@ -1,0 +1,1 @@
+select Salesperson.Name, Orders.number from Salesperson join Orders on Salesperson.ID = Orders.salesperson_ID where Orders.number > 1 order by Orders.Number desc;
