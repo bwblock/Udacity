@@ -9,8 +9,9 @@ def read_text():
 
 
 def check_profanity(text):
-    connection_object = urllib.urlopen("http://www.wdylike.appspot.com/?q=_" + text)      # creates an object of class urlopen
+    connection_object = urllib.urlopen("http://www.wdylike.appspot.com/?q=_" + text)      # creates an object of class urllib.urlopen
     output = connection_object.read()
+    print "*** Results: ***"
     if "true" in output:
        print "*** Profanity detected ***"
     elif "false" in output:
